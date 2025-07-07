@@ -1,3 +1,7 @@
-# WXT + React
+# poutine
 
-This template should help get you started developing with React in WXT.
+a browser extension made to perform various backups of cloud accounts.
+
+## supported services
+
+- steam saves
