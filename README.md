@@ -9,3 +9,12 @@ a browser extension made to perform various backups of cloud accounts.
 ## supported services
 
 - steam saves
+
+## development
+
+make sure you have [bun](https://bun.sh) installed
+
+```bash
+bun install
+bun run dev
+```
