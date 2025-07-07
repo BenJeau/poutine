@@ -5,7 +5,7 @@ function App() {
     <div className="text-sm flex flex-col text-white font-mono w-[400px]">
       <header className="sticky bg-black/50 backdrop-blur-sm z-10 p-2 top-0 left-0 right-0 flex justify-between items-center border-b-2 border-white border-dashed pb-2">
         <h1 className="bg-white text-black px-2"># poutine</h1>
-        <a href="https://github.com/poutine/poutine" target="_blank">
+        <a href="https://github.com/BenJeau/poutine" target="_blank">
           <svg
             role="img"
             viewBox="0 0 24 24"
