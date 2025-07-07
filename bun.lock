@@ -6,6 +6,7 @@
       "dependencies": {
         "@tailwindcss/vite": "^4.1.11",
         "@tanstack/react-query": "^5.81.5",
+        "@zip.js/zip.js": "^2.7.63",
         "react": "^19.1.0",
         "react-dom": "^19.1.0",
         "tailwindcss": "^4.1.11",
@@ -266,6 +267,8 @@
     "@wxt-dev/module-react": ["@wxt-dev/module-react@1.1.3", "", { "dependencies": { "@vitejs/plugin-react": "^4.3.4" }, "peerDependencies": { "wxt": ">=0.19.16" } }, "sha512-ede2FLS3sdJwtyI61jvY1UiF194ouv3wxm+fCYjfP4FfvoXQbif8UuusYBC0KSa/L2AL9Cfa/lEvsdNYrKFUaA=="],
 
     "@wxt-dev/storage": ["@wxt-dev/storage@1.1.1", "", { "dependencies": { "async-mutex": "^0.5.0", "dequal": "^2.0.3" } }, "sha512-H1vYWeoWz03INV4r+sLYDFil88b3rgMMfgGp/EXy3bLbveJeiMiFs/G0bsBN2Ra87Iqlf2oVYRb/ABQpAugbew=="],
+
+    "@zip.js/zip.js": ["@zip.js/zip.js@2.7.63", "", {}, "sha512-B02i6QDMUQ4c+5F9LmliBGA+jFsiEHIlF0eLQ6rWLaQOD3YwI6vyWwGkVCNJnVVguE2xYyr9fAwSD/3valm1/Q=="],
 
     "acorn": ["acorn@8.15.0", "", { "bin": { "acorn": "bin/acorn" } }, "sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg=="],
 

@@ -1,9 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
 
-import { SteamSavedGame } from "../scrapers/steam";
+import { SteamSavedGamesResponse } from "../scrapers/steam";
 import { MessageType } from "../../background";
 
-export const useSteamSavedGames = () => useQuery<SteamSavedGame[]>({
+export const useSteamSavedGames = () => useQuery<SteamSavedGamesResponse>({
   queryKey: ["steam-saved-games"],
   queryFn: async () => {
     const response = await browser.runtime.sendMessage({
